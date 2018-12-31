@@ -1,28 +1,52 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div id="app" class="background">
+    <nav-bar></nav-bar>
+    <router-view/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import NavBar from "./components/NavBar";
+// import HomePage from "./components/HomePage";
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    // HomePage,
+    NavBar,
   }
 }
 </script>
 
 <style>
+
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: graffiti, sans-serif;
+  /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
+  /*image-position: center;*/
+  /*-webkit-font-smoothing: antialiased;*/
+  /*-moz-osx-font-smoothing: grayscale;*/
+  /*text-align: center;*/
+  /*color: #2c3e50;*/
+  /*margin-top: 60px;*/
+}
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  /*background-repeat: no-repeat;*/
+  /*background-color: grey;*/
+}
+.background{
+  /*height: 936px;*/
+  /*width: 2592px;*/
+  height: 100%;
+  width: 100%;
+  background-image: url("./assets/BG.png");
+  /*background-repeat: no-repeat;*/
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 </style>
