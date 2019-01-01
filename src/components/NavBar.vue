@@ -1,11 +1,11 @@
 <template>
-    <div class="container">
-        <div class="navBar">
+    <div class="navBar">
+        <div class="logo">
             <h2>Chev Dev</h2>
-            <router-link to="/" tag="button">Home</router-link>
-            <router-link to="/about" tag="button">About</router-link>
-            <router-link to="/contact" tag="button">Contact</router-link>
         </div>
+        <router-link to="/" tag="button">Home</router-link>
+        <router-link to="/about" tag="button">About</router-link>
+        <router-link to="/contact" tag="button">Contact</router-link>
     </div>
 </template>
 
@@ -17,13 +17,31 @@
 </script>
 
 <style>
+.logo {
+    font-family: 'Permanent Marker', cursive;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    margin-right: auto;
+    margin-left: .5rem;
+    background: #108dc7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.logo > h2 {
+    margin: 4px 0;
+}
     .navBar{
+        height: 10%;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
         padding: .5rem;
-        border: 1px solid dimgrey;
+        /*border: 1px solid blue;*/
         background-color: black;
     }
     .navBar button {
@@ -49,16 +67,16 @@
 
     }
     .navBar h2 {
-        font-family: 'Permanent Marker', cursive;
-        border-radius: 4px;
-        display: flex;
-        padding-left: .5rem;
-        padding-right: .5rem;
-        margin-right: auto;
-        margin-left: .5rem;
-        background: #108dc7;  /* fallback for old browsers */
-        background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        /*font-family: 'Permanent Marker', cursive;*/
+        /*border-radius: 4px;*/
+        /*display: flex;*/
+        /*padding-left: .5rem;*/
+        /*padding-right: .5rem;*/
+        /*margin-right: auto;*/
+        /*margin-left: .5rem;*/
+        /*background: #108dc7;  !* fallback for old browsers *!*/
+        /*background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  !* Chrome 10-25, Safari 5.1-6 *!*/
+        /*background: linear-gradient(to right, #ef8e38, #108dc7); !* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ *!*/
     }
 
 </style>

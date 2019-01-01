@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="background">
+  <div id="app">
     <nav-bar></nav-bar>
     <router-view/>
   </div>
@@ -21,32 +21,36 @@ export default {
 <style>
 
 #app {
-  font-family: graffiti, sans-serif;
-  /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
+  background-color: dimgrey;
+  /*border: 1px solid orange;*/
+  height: 100%;
+  width: 100%;
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
   /*image-position: center;*/
-  /*-webkit-font-smoothing: antialiased;*/
-  /*-moz-osx-font-smoothing: grayscale;*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   /*text-align: center;*/
   /*color: #2c3e50;*/
   /*margin-top: 60px;*/
 }
-body {
+html, body {
   padding: 0;
   margin: 0;
+}
+body {
   height: 100vh;
   width: 100vw;
   /*background-repeat: no-repeat;*/
   /*background-color: grey;*/
 }
-.background{
-  /*height: 936px;*/
-  /*width: 2592px;*/
-  height: 100%;
-  width: 100%;
-  background-image: url("./assets/BG.png");
-  /*background-repeat: no-repeat;*/
-  -webkit-background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+@media only screen and (max-width: 375px) {
+
+   .navBar button {
+     font-size: 9px;
+   }
+  .navBar h2 {
+    font-size: 14px;
+  }
 }
+
 </style>

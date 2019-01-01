@@ -1,8 +1,6 @@
 <template>
-    <div class="container">
-        <div class="main">
+    <div class="homeMain">
             <h1>HomePage</h1>
-        </div>
         <div class="footer">
         </div>
     </div>
@@ -16,22 +14,27 @@
 </script>
 
 <style>
-    /*body {*/
+    body {
         /*padding: 0;*/
         /*margin: 0;*/
         /*height: 100vh;*/
         /*width: 100vw;*/
-        /*!*background-repeat: no-repeat;*!*/
-        /*!*background-color: grey;*!*/
-    /*}*/
+        /*background-repeat: no-repeat;*/
+        /*background-color: grey;*/
+    }
+h1  {
+    margin: 0;
+}
 
-/*.container{*/
-    /*height: 100%;*/
-    /*width: 100%;*/
-    /*background-image: url("../assets/BG.png");*/
-    /*-webkit-background-size: cover;*/
-    /*background-repeat: no-repeat;*/
-    /*background-position: center;*/
-/*}*/
+.homeMain{
+    height: 90%;
+    width: 100%;
+    background-image: url("../assets/BG.png");
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
 
 </style>
