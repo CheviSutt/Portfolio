@@ -66,6 +66,15 @@
         background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
     }
+    .navBar button:focus {
+        outline:0 !important;
+        border: 1px solid black;
+        color: black;
+        background: #108dc7;  /* fallback for old browsers */
+        background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    }
+
     .navBar h2 {
         /*font-family: 'Permanent Marker', cursive;*/
         /*border-radius: 4px;*/

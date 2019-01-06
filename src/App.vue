@@ -25,7 +25,7 @@ export default {
   /*border: 1px solid orange;*/
   height: 100%;
   width: 100%;
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  /*font-family: 'Avenir', Helvetica, Arial, sans-serif;*/
   /*image-position: center;*/
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -34,8 +34,8 @@ export default {
   /*margin-top: 60px;*/
 }
 html, body {
-  padding: 0;
-  margin: 0;
+padding: 0;
+margin: 0;
 }
 body {
   height: 100vh;
