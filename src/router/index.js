@@ -12,14 +12,14 @@ export default new Router ({
         name: 'Home',
         component: HomePage,
     },
-        {
-            path: '/about',
-            name: 'About',
-            component: AboutPage,
-        },
-        {
-            path: '/contact',
-            name: 'Contact',
-            component: ContactPage,
-        }],
+    {
+        path: '/about',
+        name: 'About',
+        component: AboutPage,
+    },
+    {
+        path: '/contact',
+        name: 'Contact',
+        component: ContactPage,
+    }],
 });
