@@ -45,17 +45,19 @@ h1  {
 
 .title {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: flex-end;
+    align-items: flex-end;
+    /*align-items: center;*/
     /*color: #ea7013;*/
     color: orangered;
-    align-items: center;
-    padding-top: 13rem;
+    /*align-items: center;*/
+    padding-top: 25rem;
+    padding-right: 5rem;
     font-size: 43px;
     /*font-family: 'Permanent Marker', cursive;*/
     /*font-family: 'ZCOOL KuaiLe', cursive;*/
     font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 70px;
+    font-size: 80px;
 }
 
 
