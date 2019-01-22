@@ -19,7 +19,9 @@
 </script>
 
 <style>
-    @import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');
+    /*@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');*/
+    @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
+
     body {
         /*padding: 0;*/
         /*margin: 0;*/
@@ -46,12 +48,14 @@ h1  {
     justify-content: center;
     align-items: center;
     /*color: #ea7013;*/
-    color: #07e6ea;
+    color: orangered;
     align-items: center;
     padding-top: 13rem;
     font-size: 43px;
     /*font-family: 'Permanent Marker', cursive;*/
-    font-family: 'ZCOOL KuaiLe', cursive;
+    /*font-family: 'ZCOOL KuaiLe', cursive;*/
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 70px;
 }
 
 
