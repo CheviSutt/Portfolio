@@ -2,8 +2,10 @@
     <div class="container">
         <h1>Contact Page</h1>
         <div class="contacts">
-            <p><a href="https://linkedin.com/in/chevi-sutton-639158133/">LinkedIn</a></p>
-            <p><a href="https://github.com/CheviSutt">GitHub</a></p>
+            <!--<p><a href="https://linkedin.com/in/chevi-sutton-639158133/">LinkedIn</a></p>-->
+            <p><a v-bind:href="linkedIn">LinkedIn</a></p>
+            <p><a v-bind:href="gitHub">GitHub</a></p>
+            <p><a v-bind:href="codePen">CodePen</a></p>
             <p><a href="">Email</a></p>
             <p><a href="">Instagram</a></p>
         </div>
@@ -13,7 +15,13 @@
 <script>
 export default {
     name: 'ContactPage',
-
+    data() {
+        return {
+            linkedIn: "https://linkedin.com/in/chevi-sutton-639158133/",
+            gitHub:  "https://github.com/CheviSutt",
+            codePen: "https://codepen.io/chevisutt/",
+        };
+    },
 }
 </script>
 
