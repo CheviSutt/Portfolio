@@ -45,20 +45,20 @@ h1  {
 
 .title {
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    /*align-items: center;*/
+    justify-content: center;
+    /*align-items: flex-end;*/
+    align-items: center;
     /*color: #ea7013;*/
-    color: orangered;
+    color: #ef931a;
     /*align-items: center;*/
-    padding-top: 25rem;
-    padding-right: 5rem;
-    font-size: 43px;
+    padding-top: 55vh;
+    padding-left: 36%;
+    padding-right: 10%;
+    font-size: 50px;
     /*font-family: 'Permanent Marker', cursive;*/
     /*font-family: 'ZCOOL KuaiLe', cursive;*/
     font-family: 'Libre Barcode 128 Text', cursive;
-    font-size: 80px;
-}
+    /*font-size: 80px;*/}
 
 
 </style>

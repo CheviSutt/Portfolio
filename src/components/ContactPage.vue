@@ -1,6 +1,5 @@
 <template>
     <div class="container">
-        <h1>Contact Page</h1>
         <div class="contacts">
             <!--<p><a href="https://linkedin.com/in/chevi-sutton-639158133/">LinkedIn</a></p>-->
             <p><a v-bind:href="linkedIn">LinkedIn</a></p>
@@ -39,5 +38,6 @@ export default {
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        padding-top: 12%;
     }
 </style>
