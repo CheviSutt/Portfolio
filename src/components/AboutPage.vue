@@ -23,8 +23,14 @@ export default {
 
 <style scoped>
 .container{
-    height: 100%;
+    /*height: 100%;*/
+    /*width: 100%;*/
+    /*background-color: gainsboro;*/
+    height: 90%;
     width: 100%;
-    background-color: gainsboro;
+    background-image: url("../assets/about.jpg");
+    -webkit-background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 </style>

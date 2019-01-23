@@ -28,16 +28,35 @@ export default {
     h2{
         color: blue;
     }
-    .container {
-        height: 100%;
+    /*.container {*/
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*background-color: dimgrey;*/
+    /*}*/
+    .container{
+        /*height: 100%;*/
+        /*width: 100%;*/
+        /*background-color: gainsboro;*/
+        height: 90%;
         width: 100%;
-        background-color: dimgrey;
+        background-image: url("../assets/contact.jpg");
+        -webkit-background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
     }
     .contacts {
         display: flex;
-        justify-content: center;
+        /*justify-content: center;*/
         align-items: center;
         flex-direction: column;
-        padding-top: 12%;
+        padding-top: 20%;
+        color: black;
+        padding-right: 24%;
+        font-weight: bold;
+    }
+    .contacts p a {
+        color: inherit;
+        text-decoration: none;
+        font-size: 30px;
     }
 </style>

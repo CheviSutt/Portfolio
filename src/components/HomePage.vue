@@ -49,8 +49,7 @@ h1  {
     /*align-items: flex-end;*/
     align-items: center;
     /*color: #ea7013;*/
-    color: #ef931a;
-    /*align-items: center;*/
+    color: #fc9d20;
     padding-top: 55vh;
     padding-left: 36%;
     padding-right: 10%;
@@ -58,7 +57,7 @@ h1  {
     /*font-family: 'Permanent Marker', cursive;*/
     /*font-family: 'ZCOOL KuaiLe', cursive;*/
     font-family: 'Libre Barcode 128 Text', cursive;
-    /*font-size: 80px;*/}
+}
 
 
 </style>
