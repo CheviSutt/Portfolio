@@ -57,7 +57,7 @@
         border: 1px solid dimgrey;
         border-radius: 4px;
         font-family: 'Permanent Marker', cursive;
-        font-size: 14px;
+        font-size: 16px;
     }
     .navBar button:hover {
         border: 1px solid black;

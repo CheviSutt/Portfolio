@@ -1,7 +1,6 @@
 <template>
     <div class="container">
         <div class="contacts">
-            <!--<p><a href="https://linkedin.com/in/chevi-sutton-639158133/">LinkedIn</a></p>-->
             <p><a v-bind:href="linkedIn">LinkedIn</a></p>
             <p><a v-bind:href="gitHub">GitHub</a></p>
             <p><a v-bind:href="codePen">CodePen</a></p>
