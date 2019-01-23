@@ -5,8 +5,6 @@
             <p><a v-bind:href="linkedIn">LinkedIn</a></p>
             <p><a v-bind:href="gitHub">GitHub</a></p>
             <p><a v-bind:href="codePen">CodePen</a></p>
-            <p><a href="">Email</a></p>
-            <p><a href="">Instagram</a></p>
         </div>
     </div>
 </template>
@@ -58,5 +56,8 @@ export default {
         color: inherit;
         text-decoration: none;
         font-size: 30px;
+    }
+    .contacts p a:hover {
+        color: whitesmoke;
     }
 </style>
