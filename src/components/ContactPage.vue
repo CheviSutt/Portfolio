@@ -44,12 +44,12 @@ export default {
     }
     .contacts {
         display: flex;
-        /*justify-content: center;*/
+        justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 20%;
+        padding-top: 24%;
         color: black;
-        padding-right: 24%;
+        padding-right: 23%;
         font-weight: bold;
     }
     .contacts p a {
