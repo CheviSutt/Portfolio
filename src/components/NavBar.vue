@@ -1,7 +1,6 @@
 <template>
     <div class="navBar">
         <div class="logo">
-            <!--<h2>Chev Dev</h2>-->
             <router-link to="/" tag="h2">Chev Dev</router-link>
         </div>
         <router-link to="/" tag="button">Home<i class="fas fa-home"></i></router-link>

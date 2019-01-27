@@ -2,7 +2,6 @@
         <div class="homeContainer">
             <div class="card">
                 <div class="title">
-                    <!--<h1>{{ author }}</h1>-->
                     <router-link to="/about" tag="h1">{{ author }}</router-link>
                 </div>
             </div>
@@ -22,17 +21,11 @@
 </script>
 
 <style>
-    /*@import url('https://fonts.googleapis.com/css?family=ZCOOL+KuaiLe');*/
     @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 
-    body {
-        /*padding: 0;*/
-        /*margin: 0;*/
-        /*height: 100vh;*/
-        /*width: 100vw;*/
-        /*background-repeat: no-repeat;*/
-        /*background-color: grey;*/
-    }
+body {
+
+}
 
 .homeContainer{
     height: 90%;
@@ -41,7 +34,6 @@
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    /*padding-top: 20rem;*/
 }
 
 .card {
@@ -60,7 +52,6 @@
     color: black;
     border-radius: 4px;
     font-size: 34px;
-    /*font-family: 'ZCOOL KuaiLe', cursive;*/
     font-family: 'Libre Barcode 128 Text', cursive;
     background-color: rgba(238,238,238,0.6);
     width: 20rem;

@@ -27,15 +27,7 @@ export default {
     h2{
         color: blue;
     }
-    /*.container {*/
-        /*height: 100%;*/
-        /*width: 100%;*/
-        /*background-color: dimgrey;*/
-    /*}*/
     .container{
-        /*height: 100%;*/
-        /*width: 100%;*/
-        /*background-color: gainsboro;*/
         height: 90%;
         width: 100%;
         background-image: url("../assets/contact.jpg");
@@ -59,9 +51,7 @@ export default {
         padding-right: 2.5rem;
         padding-left: 2.5rem;
         color: black;
-        /*padding-right: 23%;*/
         font-weight: bold;
-        /*border: 1px solid white;*/
         width: 6rem;
         background-color: hsla(0, 100%, 90%, 0.3);
         border-radius: 4px;

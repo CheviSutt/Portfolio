@@ -23,9 +23,6 @@ export default {
 
 <style scoped>
 .container{
-    /*height: 100%;*/
-    /*width: 100%;*/
-    /*background-color: gainsboro;*/
     height: 90%;
     width: 100%;
     background-image: url("../assets/about.jpg");
