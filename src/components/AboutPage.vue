@@ -38,17 +38,27 @@ export default {
     width: 86%;
     height: 80%;
     border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .header {
     border: 2px solid red;
+    height: 10%;
+    width: 80%;
 }
 
 .main {
     border: 2px solid yellow;
+    height: 30%;
+    width: 80%;
 }
 
 .footer {
     border: 2px solid green;
+    height: 10%;
+    width: 80%;
 }
 </style>
