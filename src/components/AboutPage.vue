@@ -1,7 +1,10 @@
 <template>
     <div class="containerAbout">
         <div class="card">
-            <div class="header">Header</div>
+            <div class="header">
+                <h4>{{ title }}</h4>
+                <h3>{{ description }}</h3>
+            </div>
             <div class="main">Main</div>
             <div class="footer">Footer</div>
         </div>
@@ -15,13 +18,15 @@ export default {
     data() {
         return {
             author: 'Chevi Sutton',
-            title: 'Skills',
+            title: 'Yep, Chevi. Like the truck, except with an "i" not a "y".',
+            description:'I’ve discovered a passion for Web Development during a rewarding career as a Dental Lab Technician.'
         };
     },
 }
 </script>
 
 <style scoped>
+
 .containerAbout{
     height: 90%;
     width: 100%;
@@ -39,15 +44,28 @@ export default {
     height: 80%;
     border: 1px solid blue;
     display: flex;
-    justify-content: center;
+    /*justify-content: center;*/
     align-items: center;
     flex-direction: column;
+    background-color: rgba(238,238,238,0.3);
 }
 
 .header {
     border: 2px solid red;
-    height: 10%;
+    /*height: 10%;*/
     width: 80%;
+    display: flex;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    flex-direction: column;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    background-color: rgba(238,238,238,0.5);
+}
+
+.header h4 {
+    display: flex;
+    justify-content: flex-start;
 }
 
 .main {
