@@ -18,8 +18,8 @@ export default {
     data() {
         return {
             author: 'Chevi Sutton',
-            title: 'Yep, Chevi. Like the truck, except with an "i" not a "y".',
-            description:'I’ve discovered a passion for Web Development during a rewarding career as a Dental Lab Technician.'
+            title: '-Yep, Chevi. Like the truck, except with an "i" not a "y".',
+            description:'"I’ve discovered a passion for Web Development during a rewarding career as a Dental Lab Technician.'
         };
     },
 }
@@ -40,8 +40,8 @@ export default {
 }
 
 .card {
-    width: 86%;
-    height: 80%;
+    width: 94%;
+    height: 90%;
     border: 1px solid blue;
     display: flex;
     /*justify-content: center;*/
