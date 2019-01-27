@@ -2,7 +2,8 @@
         <div class="homeContainer">
             <div class="card">
                 <div class="title">
-                    <h1>{{ author }}</h1>
+                    <!--<h1>{{ author }}</h1>-->
+                    <router-link to="/about" tag="h1">{{ author }}</router-link>
                 </div>
             </div>
         </div>
