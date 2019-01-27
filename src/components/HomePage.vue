@@ -1,7 +1,9 @@
 <template>
         <div class="homeContainer">
-            <div class="title">
-                <h1>{{ author }}</h1>
+            <div class="card">
+                <div class="title">
+                    <h1>{{ author }}</h1>
+                </div>
             </div>
         </div>
 </template>
@@ -30,9 +32,6 @@
         /*background-repeat: no-repeat;*/
         /*background-color: grey;*/
     }
-h1  {
-    margin: 0;
-}
 
 .homeContainer{
     height: 90%;
@@ -41,22 +40,34 @@ h1  {
     -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    /*padding-top: 20rem;*/
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 26rem;
+    padding-left: 15rem;
+    padding-right: 4rem;
 }
 
 .title {
     display: flex;
     justify-content: center;
-    /*align-items: flex-end;*/
     align-items: center;
-    /*color: #ea7013;*/
-    color: #fc9d20;
-    padding-top: 55vh;
-    padding-left: 36%;
-    padding-right: 10%;
-    font-size: 50px;
-    /*font-family: 'Permanent Marker', cursive;*/
+    color: black;
+    border-radius: 4px;
+    font-size: 34px;
     /*font-family: 'ZCOOL KuaiLe', cursive;*/
     font-family: 'Libre Barcode 128 Text', cursive;
+    background-color: rgba(238,238,238,0.7);
+    width: 20rem;
+}
+
+h1  {
+    margin: 0;
+    padding: .5rem;
 }
 
 

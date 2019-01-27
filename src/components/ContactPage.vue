@@ -1,9 +1,11 @@
 <template>
     <div class="container">
-        <div class="contacts">
-            <p><a v-bind:href="linkedIn">LinkedIn</a></p>
-            <p><a v-bind:href="gitHub">GitHub</a></p>
-            <p><a v-bind:href="codePen">CodePen</a></p>
+        <div class="card">
+            <div class="contacts">
+                <p><a v-bind:href="linkedIn">LinkedIn</a></p>
+                <p><a v-bind:href="gitHub">GitHub</a></p>
+                <p><a v-bind:href="codePen">CodePen</a></p>
+            </div>
         </div>
     </div>
 </template>
@@ -41,20 +43,35 @@ export default {
         background-repeat: no-repeat;
         background-position: center;
     }
+    .card {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 23rem;
+        padding-right: 26rem;
+        padding-left: 6rem;
+    }
     .contacts {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
-        padding-top: 24%;
+        padding-right: 2.5rem;
+        padding-left: 2.5rem;
         color: black;
-        padding-right: 23%;
+        /*padding-right: 23%;*/
         font-weight: bold;
+        /*border: 1px solid white;*/
+        width: 6rem;
+        background-color: hsla(0, 100%, 90%, 0.3);
+        border-radius: 4px;
     }
     .contacts p a {
         color: inherit;
         text-decoration: none;
         font-size: 30px;
+        padding-left: 2px;
+        padding-right: 2px;
     }
     .contacts p a:hover {
         color: whitesmoke;
