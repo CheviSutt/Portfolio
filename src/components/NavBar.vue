@@ -19,6 +19,10 @@
 
 
 <style>
+ h2:hover {
+     cursor: pointer;
+ }
+
 .logo {
     font-family: 'Permanent Marker', cursive;
     border-radius: 4px;

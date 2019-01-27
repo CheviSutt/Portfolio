@@ -62,14 +62,26 @@
     font-size: 34px;
     /*font-family: 'ZCOOL KuaiLe', cursive;*/
     font-family: 'Libre Barcode 128 Text', cursive;
-    background-color: rgba(238,238,238,0.7);
+    background-color: rgba(238,238,238,0.6);
     width: 20rem;
+    transform: rotate(-3deg);
+}
+
+.title:hover {
+    transform: rotate(+3deg);
+    background-color: rgba(238,238,238,0.7);
 }
 
 h1  {
     margin: 0;
     padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+h1:hover {
+    cursor: pointer;
+}
 
 </style>
