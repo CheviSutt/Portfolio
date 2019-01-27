@@ -35,8 +35,8 @@ export default {
 }
 
 .card {
-    width: 70%;
-    height: 35%;
+    width: 86%;
+    height: 80%;
     border: 1px solid blue;
 }
 
