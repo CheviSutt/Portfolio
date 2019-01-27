@@ -1,9 +1,9 @@
 <template>
         <div class="homeContainer">
             <div class="card">
-                <div class="title">
-                    <router-link to="/about" tag="h1">{{ author }}</router-link>
-                </div>
+                <router-link to="/about" tag="div" class="title">
+                    <h1>{{ author }}</h1>
+                </router-link>
             </div>
         </div>
 </template>
@@ -20,7 +20,7 @@
 
 </script>
 
-<style>
+<style scoped>
     @import url('https://fonts.googleapis.com/css?family=Libre+Barcode+128+Text');
 
 body {
@@ -61,6 +61,7 @@ body {
 .title:hover {
     transform: rotate(+3deg);
     background-color: rgba(238,238,238,0.7);
+    cursor: pointer;
 }
 
 h1  {
@@ -71,8 +72,5 @@ h1  {
     align-items: center;
 }
 
-h1:hover {
-    cursor: pointer;
-}
 
 </style>
