@@ -52,9 +52,13 @@
         background-color: rgba(0,0,0,.65);
         position: absolute;
         width: 100%;
-        -webkit-box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);
-        -moz-box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);
-        box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);
+        /*-webkit-box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);*/
+        /*-moz-box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);*/
+        /*box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);*/
+
+        /*-webkit-box-shadow: 0px 4px 6px -1px rgba(150,150,153,1);*/
+        /*-moz-box-shadow: 0px 4px 6px -1px rgba(150,150,153,1);*/
+        /*box-shadow: 0px 4px 6px -1px rgba(150,150,153,1);*/
     }
     .navBar button {
         display: flex;
