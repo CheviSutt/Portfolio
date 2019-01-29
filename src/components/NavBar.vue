@@ -18,11 +18,8 @@
 
 
 <style>
- h2:hover {
-     cursor: pointer;
- }
 
-.logo {
+    .logo {
     font-family: 'Permanent Marker', cursive;
     border-radius: 4px;
     display: flex;
@@ -35,19 +32,26 @@
     background: #108dc7;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #ef8e38, #108dc7);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #ef8e38, #108dc7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-}
-.logo > h2 {
+    }
+
+    .logo > h2 {
     margin: 4px 0;
-}
+    }
+
+    h2:hover {
+    cursor: pointer;
+    }
     .navBar {
         height: 10%;
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
         align-items: center;
-        padding: .5rem;
+        padding: 10px 0 10px 0;
         /*border: 1px solid blue;*/
-        background-color: black;
+        background-color: rgba(0,0,0,.65);
+        position: absolute;
+        width: 100%;
     }
     .navBar button {
         display: flex;
@@ -82,6 +86,18 @@
     }
     .navBar button i {
         padding-left: 3px;
+    }
+
+    @media only screen and (max-width: 440px) {
+        .logo {
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (max-width: 440px) {
+        .logo {
+            font-size: 12px;
+        }
     }
 
 </style>

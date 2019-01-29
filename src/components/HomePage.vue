@@ -28,7 +28,7 @@ body {
 }
 
 .homeContainer{
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-image: url("../assets/BG.png");
     -webkit-background-size: cover;
@@ -40,8 +40,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-top: 26rem;
-    padding-left: 15rem;
+    padding-top: 32rem;
+    padding-left: 28rem;
     padding-right: 4rem;
 }
 
@@ -71,6 +71,22 @@ h1  {
     justify-content: center;
     align-items: center;
 }
+
+    @media only screen and (max-width: 750px) {
+        .card {
+            padding-top: 33rem;
+            padding-left: 19rem;
+            padding-right: 4rem;
+        }
+    }
+
+    @media only screen and (max-width: 420px) {
+        .card {
+            padding-top: 24rem;
+            padding-left: 12rem;
+            padding-right: 5rem;
+        }
+    }
 
 
 </style>

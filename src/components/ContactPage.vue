@@ -28,7 +28,7 @@ export default {
         color: blue;
     }
     .container{
-        height: 90%;
+        height: 100%;
         width: 100%;
         background-image: url("../assets/contact.jpg");
         -webkit-background-size: cover;
@@ -39,8 +39,8 @@ export default {
         display: flex;
         justify-content: center;
         align-items: center;
-        padding-top: 23rem;
-        padding-right: 26rem;
+        padding-top: 28rem;
+        padding-right: 28rem;
         padding-left: 6rem;
     }
     .contacts {

@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <nav-bar></nav-bar>
+    <nav-bar>
+      <router-view/>
+    </nav-bar>
     <router-view/>
   </div>
 </template>
@@ -21,7 +23,7 @@ export default {
 <style>
 
 #app {
-  background-color: dimgrey;
+  /*background-color: dimgrey;*/
   /*border: 1px solid orange;*/
   height: 100%;
   width: 100%;

@@ -2,8 +2,8 @@
     <div class="containerAbout">
         <div class="card">
             <div class="header">
-                <h4>{{ title }}</h4>
-                <h3>{{ description }}</h3>
+                <!--<h4><i class="fas fa-quote-left"></i>{{ title }}</h4>-->
+                <h3><i class="fas fa-quote-left"></i>{{ description }}</h3>
             </div>
             <div class="main">Main</div>
             <div class="footer">Footer</div>
@@ -18,8 +18,8 @@ export default {
     data() {
         return {
             author: 'Chevi Sutton',
-            title: '-Yep, Chevi. Like the truck, except with an "i" not a "y".',
-            description:'"I’ve discovered a passion for Web Development during a rewarding career as a Dental Lab Technician.'
+            title: 'Yep, Chevi. Like the truck, except with an "i" not a "y".',
+            description:'I’ve discovered a passion for Web Development during a rewarding career as a Dental Lab Technician."'
         };
     },
 }
@@ -28,7 +28,7 @@ export default {
 <style scoped>
 
 .containerAbout{
-    height: 90%;
+    height: 100%;
     width: 100%;
     background-image: url("../assets/about.jpg");
     -webkit-background-size: cover;
@@ -41,13 +41,14 @@ export default {
 
 .card {
     width: 94%;
-    height: 90%;
+    height: 80%;
     border: 1px solid blue;
     display: flex;
     /*justify-content: center;*/
     align-items: center;
     flex-direction: column;
     background-color: rgba(238,238,238,0.3);
+    margin-top: 4rem;
 }
 
 .header {
@@ -66,6 +67,11 @@ export default {
 .header h4 {
     display: flex;
     justify-content: flex-start;
+}
+
+h3 i {
+    padding-right: .5rem;
+    color: dodgerblue;
 }
 
 .main {
