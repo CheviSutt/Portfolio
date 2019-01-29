@@ -52,6 +52,9 @@
         background-color: rgba(0,0,0,.65);
         position: absolute;
         width: 100%;
+        -webkit-box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);
+        -moz-box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);
+        box-shadow: 0px 7px 19px -2px rgba(160,160,163,1);
     }
     .navBar button {
         display: flex;
